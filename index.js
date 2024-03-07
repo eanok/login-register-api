@@ -15,7 +15,7 @@ app.use(passport.initialize());
 const jwt = require("jsonwebtoken");
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/chat-app", {
+  .connect("mongodb+srv://eanok:eanok@cluster0.meqlkiz.mongodb.net/", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
